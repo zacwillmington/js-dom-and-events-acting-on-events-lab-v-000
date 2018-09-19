@@ -18,7 +18,7 @@ function retrieveEmployeeInformation(){
 
 function addNewElementAsLi(){
     const li = document.createElement('li')
-    console.log(li)
-    // li.value = retrieveEmployeeInformation();
+     li.innerHTML = retrieveEmployeeInformation();
+     console.log(li)
     return $('ul').append(li);
 }
