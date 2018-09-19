@@ -5,10 +5,11 @@ function preventRefreshOnSubmit(){
 
 }
 
+preventRefreshOnSubmit()
+
+
 function retrieveEmployeeInformation(){
     console.log($(':input'));
     return $(':input');
     // return document.querySelector('input').value;
 }
-
-preventRefreshOnSubmit()
