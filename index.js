@@ -19,8 +19,14 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-    $('form').on('click', function(e) {
+    $('form').on('click', function() {
         addNewElementAsLi();
         $('input[type=text]').val('');
+    });
+}
+
+function clearEmployeeListOnLinkClick() {
+    $('.clear-emlpoyee-list').on('click', function(){
+        $('ul.employee-list').empty();
     });
 }
