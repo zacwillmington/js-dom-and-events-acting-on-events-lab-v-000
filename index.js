@@ -6,7 +6,7 @@ function preventRefreshOnSubmit(){
 }
 
 function retrieveEmployeeInformation(){
-    return $(':text');
+    return document.querySelector('input');
 }
 
 preventRefreshOnSubmit()
