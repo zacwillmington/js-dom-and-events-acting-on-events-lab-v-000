@@ -9,7 +9,9 @@ preventRefreshOnSubmit()
 
 
 function retrieveEmployeeInformation(){
-    console.log($(':input'));
-    return $(':input');
+
+    return $(':input').on('click', function(e){
+        console.log(e);
+    });
     // return document.querySelector('input').value;
 }
