@@ -27,6 +27,7 @@ function addNewLiOnClick() {
 
 function clearEmployeeListOnLinkClick() {
     $('.clear-employee-list').on('click', function(){
+        console.log("click reconginsed");
         $('ul.employee-list').empty();
     });
 }
