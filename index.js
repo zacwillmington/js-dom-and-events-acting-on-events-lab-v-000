@@ -5,3 +5,4 @@ function preventRefreshOnSubmit(){
 }
 
 preventRefreshOnSubmit()
+
