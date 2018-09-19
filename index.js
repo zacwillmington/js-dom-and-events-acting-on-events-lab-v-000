@@ -3,10 +3,10 @@ function preventRefreshOnSubmit(){
       event.preventDefault()
     })
 
-    function retrieveEmployeeInformation(){
-        return $(':text');
-    }
+}
+
+function retrieveEmployeeInformation(){
+    return $(':text');
 }
 
 preventRefreshOnSubmit()
-
