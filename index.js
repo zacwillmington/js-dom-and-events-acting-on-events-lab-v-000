@@ -17,5 +17,6 @@ function retrieveEmployeeInformation(){
 }
 
 function addNewElementAsLi(){
-    return $('ul').append("li");
+    document.addNewElement()
+    return $('ul').append();
 }
