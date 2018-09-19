@@ -8,12 +8,16 @@ function preventRefreshOnSubmit(){
 preventRefreshOnSubmit()
 
 
-function retrieveEmployeeInformation(){
+function retrieveEmployeeInformation() {
     return document.querySelector('input').value;
 }
 
-function addNewElementAsLi(){
+function addNewElementAsLi() {
     const li = document.createElement('li')
      li.innerHTML = retrieveEmployeeInformation();
     return $('ul').first().append(li);
+}
+
+function addNewLiOnClick() {
+
 }
