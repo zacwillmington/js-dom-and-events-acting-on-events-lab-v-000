@@ -19,7 +19,7 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-    $('ul').first().on('click', function(e) {
+    $('form').on('click', function() {
         console.log(e);
     });
 }
