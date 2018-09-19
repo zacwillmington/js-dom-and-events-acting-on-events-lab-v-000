@@ -19,5 +19,7 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-
+    $('ul').first().on('click', function(e) {
+        console.log(e);
+    });
 }
