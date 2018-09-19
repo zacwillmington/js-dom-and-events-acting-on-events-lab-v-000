@@ -20,7 +20,6 @@ function addNewElementAsLi() {
 
 function addNewLiOnClick() {
     $('form').on('click', function(e) {
-
-        console.log(retrieveEmployeeInformation());
+        addNewElementAsLi();
     });
 }
