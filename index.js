@@ -21,6 +21,6 @@ function addNewElementAsLi() {
 function addNewLiOnClick() {
     $('form').on('click', function(e) {
         addNewElementAsLi();
-        $('form').val("");
+        $('input[type=text]').val();
     });
 }
